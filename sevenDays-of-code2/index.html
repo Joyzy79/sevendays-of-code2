@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<br>
+<script>
+let nome = prompt("Qual o seu nome?")
+let idade = prompt("Quantos anos você tem?")
+let linguagem = prompt("Qual linguagem de programação você está estudando?")
+document.write(`Então ${nome}, aos ${idade} anos você está estudando ${linguagem}. Isso é muito legal!`)
+</script>
+<br>
+<br>
+
+<script>
+let resposta = prompt(`${nome}, você está gostando de estudar ${linguagem}? Responda com o número 1 para SIM ou 2 para NÃO.`)
+if (resposta == 1){document.write("'Muito bom! Continue estudando e você terá muito sucesso.'")
+}
+if (resposta == 2){document.write("' Ahh que pena... Já tentou aprender outras linguagens?'")
+}
+console.log(resposta)
+</script>
